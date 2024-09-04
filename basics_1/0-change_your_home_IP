@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# a script that change the ip to an other dns
+sudo echo "127.0.0.2 localhost" | tee -a /etc/hosts
+sudo echo "8.8.8.8 facebook.com" | tee -a /etc/hosts

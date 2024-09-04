@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# a script that shows us the active ips
+ifconfig | grep -oP '(?<=inet\s)\d+(\.\d+){3}'

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# a script that listen for port 98 in localhost
+telnet localhost 98
